@@ -40,6 +40,7 @@ import net.mcreator.cosmod.world.features.plants.CallalilyFeature;
 import net.mcreator.cosmod.world.features.plants.ButtercupFlowersFeature;
 import net.mcreator.cosmod.world.features.plants.BluePansiesFeature;
 import net.mcreator.cosmod.world.features.plants.BlueIrisFeature;
+import net.mcreator.cosmod.world.features.plants.AngelsWingFeature;
 import net.mcreator.cosmod.CosmodMod;
 
 import java.util.function.Supplier;
@@ -108,6 +109,8 @@ public class CosmodModFeatures {
 	public static final RegistryObject<Feature<?>> PURPLEHOLLYHOCK = register("purplehollyhock", PurplehollyhockFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, PurplehollyhockFeature.GENERATE_BIOMES,
 					PurplehollyhockFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ANGELS_WING = register("angels_wing", AngelsWingFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, AngelsWingFeature.GENERATE_BIOMES, AngelsWingFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

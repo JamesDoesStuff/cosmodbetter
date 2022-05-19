@@ -112,6 +112,7 @@ public class CosmodModItems {
 			() -> new ForgeSpawnEggItem(CosmodModEntities.KING_PINEWOOD_MUSHLING, -10079488, -6750208,
 					new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> BIG_LEMON_TART = block(CosmodModBlocks.BIG_LEMON_TART, CosmodModTabs.TAB_COSMOD);
+	public static final RegistryObject<Item> ANGELS_WING = block(CosmodModBlocks.ANGELS_WING, CosmodModTabs.TAB_PLANTS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
