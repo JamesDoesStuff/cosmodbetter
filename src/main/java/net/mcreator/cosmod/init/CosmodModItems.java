@@ -122,6 +122,17 @@ public class CosmodModItems {
 	public static final RegistryObject<Item> BLUE_CHANTERELLE = block(CosmodModBlocks.BLUE_CHANTERELLE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BLUE_GLOW_MUSHROOM = block(CosmodModBlocks.BLUE_GLOW_MUSHROOM, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BLUE_KNIGHT = block(CosmodModBlocks.BLUE_KNIGHT, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLUING_BOLETE = block(CosmodModBlocks.BLUING_BOLETE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BRISTLED_SAWGILL = block(CosmodModBlocks.BRISTLED_SAWGILL, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BROWN_ROLLRIM = block(CosmodModBlocks.BROWN_ROLLRIM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CAESAR_SHROOM = block(CosmodModBlocks.CAESAR_SHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CANDLE_SNUFF = block(CosmodModBlocks.CANDLE_SNUFF, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CANDY_CAP = block(CosmodModBlocks.CANDY_CAP, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CATERPILLAR_FUNGI = block(CosmodModBlocks.CATERPILLAR_FUNGI, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CAULIFLOWER_FUNGI = block(CosmodModBlocks.CAULIFLOWER_FUNGI, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CHINGULU = block(CosmodModBlocks.CHINGULU, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CLUSTERED_CORAL = block(CosmodModBlocks.CLUSTERED_CORAL, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> COLUMN_STINKHORN = block(CosmodModBlocks.COLUMN_STINKHORN, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

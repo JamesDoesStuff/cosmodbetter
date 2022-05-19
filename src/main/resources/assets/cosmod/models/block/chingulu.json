@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cosmod:blocks/chingulu",
+    "particle": "cosmod:blocks/chingulu"
+  }
+}

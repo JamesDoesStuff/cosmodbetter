@@ -50,14 +50,25 @@ import net.mcreator.cosmod.block.FlamingoOysterGrowLog1Block;
 import net.mcreator.cosmod.block.DesertMallowBlock;
 import net.mcreator.cosmod.block.CosmeticTableBlock;
 import net.mcreator.cosmod.block.CorruptedRunestoneBlock;
+import net.mcreator.cosmod.block.ColumnStinkhornBlock;
+import net.mcreator.cosmod.block.ClusteredCoralBlock;
+import net.mcreator.cosmod.block.ChinguluBlock;
 import net.mcreator.cosmod.block.CheryBlossomFenceBlock;
 import net.mcreator.cosmod.block.CherryBlossomStairsBlock;
 import net.mcreator.cosmod.block.CherryBlossomSlabBlock;
 import net.mcreator.cosmod.block.CherryBlossomPlanksBlock;
 import net.mcreator.cosmod.block.CherryBlossomLeavesBlock;
+import net.mcreator.cosmod.block.CauliflowerFungiBlock;
+import net.mcreator.cosmod.block.CaterpillarFungiBlock;
+import net.mcreator.cosmod.block.CandyCapBlock;
+import net.mcreator.cosmod.block.CandleSnuffBlock;
 import net.mcreator.cosmod.block.CallalilyBlock;
+import net.mcreator.cosmod.block.CaesarShroomBlock;
 import net.mcreator.cosmod.block.ButtercupFlowersBlock;
+import net.mcreator.cosmod.block.BrownRollrimBlock;
+import net.mcreator.cosmod.block.BristledSawgillBlock;
 import net.mcreator.cosmod.block.BooksAndBottlesBlock;
+import net.mcreator.cosmod.block.BluingBoleteBlock;
 import net.mcreator.cosmod.block.BluePansiesBlock;
 import net.mcreator.cosmod.block.BlueKnightBlock;
 import net.mcreator.cosmod.block.BlueIrisBlock;
@@ -140,6 +151,17 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> BLUE_CHANTERELLE = REGISTRY.register("blue_chanterelle", () -> new BlueChanterelleBlock());
 	public static final RegistryObject<Block> BLUE_GLOW_MUSHROOM = REGISTRY.register("blue_glow_mushroom", () -> new BlueGlowMushroomBlock());
 	public static final RegistryObject<Block> BLUE_KNIGHT = REGISTRY.register("blue_knight", () -> new BlueKnightBlock());
+	public static final RegistryObject<Block> BLUING_BOLETE = REGISTRY.register("bluing_bolete", () -> new BluingBoleteBlock());
+	public static final RegistryObject<Block> BRISTLED_SAWGILL = REGISTRY.register("bristled_sawgill", () -> new BristledSawgillBlock());
+	public static final RegistryObject<Block> BROWN_ROLLRIM = REGISTRY.register("brown_rollrim", () -> new BrownRollrimBlock());
+	public static final RegistryObject<Block> CAESAR_SHROOM = REGISTRY.register("caesar_shroom", () -> new CaesarShroomBlock());
+	public static final RegistryObject<Block> CANDLE_SNUFF = REGISTRY.register("candle_snuff", () -> new CandleSnuffBlock());
+	public static final RegistryObject<Block> CANDY_CAP = REGISTRY.register("candy_cap", () -> new CandyCapBlock());
+	public static final RegistryObject<Block> CATERPILLAR_FUNGI = REGISTRY.register("caterpillar_fungi", () -> new CaterpillarFungiBlock());
+	public static final RegistryObject<Block> CAULIFLOWER_FUNGI = REGISTRY.register("cauliflower_fungi", () -> new CauliflowerFungiBlock());
+	public static final RegistryObject<Block> CHINGULU = REGISTRY.register("chingulu", () -> new ChinguluBlock());
+	public static final RegistryObject<Block> CLUSTERED_CORAL = REGISTRY.register("clustered_coral", () -> new ClusteredCoralBlock());
+	public static final RegistryObject<Block> COLUMN_STINKHORN = REGISTRY.register("column_stinkhorn", () -> new ColumnStinkhornBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -193,6 +215,17 @@ public class CosmodModBlocks {
 			BlueChanterelleBlock.registerRenderLayer();
 			BlueGlowMushroomBlock.registerRenderLayer();
 			BlueKnightBlock.registerRenderLayer();
+			BluingBoleteBlock.registerRenderLayer();
+			BristledSawgillBlock.registerRenderLayer();
+			BrownRollrimBlock.registerRenderLayer();
+			CaesarShroomBlock.registerRenderLayer();
+			CandleSnuffBlock.registerRenderLayer();
+			CandyCapBlock.registerRenderLayer();
+			CaterpillarFungiBlock.registerRenderLayer();
+			CauliflowerFungiBlock.registerRenderLayer();
+			ChinguluBlock.registerRenderLayer();
+			ClusteredCoralBlock.registerRenderLayer();
+			ColumnStinkhornBlock.registerRenderLayer();
 		}
 	}
 }
