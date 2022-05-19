@@ -1194,6 +1194,15 @@
       "locked_code": false,
       "registry_name": "angels_wing",
       "path": "~/Mushrooms"
+    },
+    {
+      "name": "ApricotJelly",
+      "type": "plant",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apricot_jelly",
+      "path": "~/Mushrooms"
     }
   ],
   "variable_elements": [],
@@ -1282,6 +1291,7 @@
       "item.cosmod.morel_mushling_spawn_egg": "Morel Mushling Spawn Egg",
       "block.cosmod.blue_iris": "Blue Iris",
       "block.cosmod.pink_hollyhock": "Pink Hollyhock",
+      "block.cosmod.apricot_jelly": "Apricot Jelly",
       "block.cosmod.runic_dirt_block": "Runic Dirt Block",
       "block.cosmod.thicc_cake": "Thicc Cake"
     }

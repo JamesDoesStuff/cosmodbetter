@@ -61,6 +61,7 @@ import net.mcreator.cosmod.block.BooksAndBottlesBlock;
 import net.mcreator.cosmod.block.BluePansiesBlock;
 import net.mcreator.cosmod.block.BlueIrisBlock;
 import net.mcreator.cosmod.block.BigLemonTartBlock;
+import net.mcreator.cosmod.block.ApricotJellyBlock;
 import net.mcreator.cosmod.block.AngelsWingBlock;
 import net.mcreator.cosmod.CosmodMod;
 
@@ -122,6 +123,7 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> PINK_HEART_CAKE = REGISTRY.register("pink_heart_cake", () -> new PinkHeartCakeBlock());
 	public static final RegistryObject<Block> BIG_LEMON_TART = REGISTRY.register("big_lemon_tart", () -> new BigLemonTartBlock());
 	public static final RegistryObject<Block> ANGELS_WING = REGISTRY.register("angels_wing", () -> new AngelsWingBlock());
+	public static final RegistryObject<Block> APRICOT_JELLY = REGISTRY.register("apricot_jelly", () -> new ApricotJellyBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -166,6 +168,7 @@ public class CosmodModBlocks {
 			PinkHeartCakeBlock.registerRenderLayer();
 			BigLemonTartBlock.registerRenderLayer();
 			AngelsWingBlock.registerRenderLayer();
+			ApricotJellyBlock.registerRenderLayer();
 		}
 	}
 }

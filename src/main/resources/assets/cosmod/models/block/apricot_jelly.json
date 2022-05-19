@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cosmod:blocks/apricotjelly",
+    "particle": "cosmod:blocks/apricotjelly"
+  }
+}
