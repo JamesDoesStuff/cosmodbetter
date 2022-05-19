@@ -114,6 +114,14 @@ public class CosmodModItems {
 	public static final RegistryObject<Item> BIG_LEMON_TART = block(CosmodModBlocks.BIG_LEMON_TART, CosmodModTabs.TAB_COSMOD);
 	public static final RegistryObject<Item> ANGELS_WING = block(CosmodModBlocks.ANGELS_WING, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> APRICOT_JELLY = block(CosmodModBlocks.APRICOT_JELLY, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> AUTUMN_SKULLCAP = block(CosmodModBlocks.AUTUMN_SKULLCAP, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BAY_BOLETE = block(CosmodModBlocks.BAY_BOLETE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BEECH = block(CosmodModBlocks.BEECH, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BIRCH_BOLETE = block(CosmodModBlocks.BIRCH_BOLETE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLEEDING_TOOTH = block(CosmodModBlocks.BLEEDING_TOOTH, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLUE_CHANTERELLE = block(CosmodModBlocks.BLUE_CHANTERELLE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLUE_GLOW_MUSHROOM = block(CosmodModBlocks.BLUE_GLOW_MUSHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLUE_KNIGHT = block(CosmodModBlocks.BLUE_KNIGHT, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

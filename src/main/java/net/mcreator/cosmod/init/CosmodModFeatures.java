@@ -39,7 +39,15 @@ import net.mcreator.cosmod.world.features.plants.DesertMallowFeature;
 import net.mcreator.cosmod.world.features.plants.CallalilyFeature;
 import net.mcreator.cosmod.world.features.plants.ButtercupFlowersFeature;
 import net.mcreator.cosmod.world.features.plants.BluePansiesFeature;
+import net.mcreator.cosmod.world.features.plants.BlueKnightFeature;
 import net.mcreator.cosmod.world.features.plants.BlueIrisFeature;
+import net.mcreator.cosmod.world.features.plants.BlueGlowMushroomFeature;
+import net.mcreator.cosmod.world.features.plants.BlueChanterelleFeature;
+import net.mcreator.cosmod.world.features.plants.BleedingToothFeature;
+import net.mcreator.cosmod.world.features.plants.BirchBoleteFeature;
+import net.mcreator.cosmod.world.features.plants.BeechFeature;
+import net.mcreator.cosmod.world.features.plants.BayBoleteFeature;
+import net.mcreator.cosmod.world.features.plants.AutumnSkullcapFeature;
 import net.mcreator.cosmod.world.features.plants.ApricotJellyFeature;
 import net.mcreator.cosmod.world.features.plants.AngelsWingFeature;
 import net.mcreator.cosmod.CosmodMod;
@@ -114,6 +122,25 @@ public class CosmodModFeatures {
 			GenerationStep.Decoration.VEGETAL_DECORATION, AngelsWingFeature.GENERATE_BIOMES, AngelsWingFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> APRICOT_JELLY = register("apricot_jelly", ApricotJellyFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.VEGETAL_DECORATION, ApricotJellyFeature.GENERATE_BIOMES, ApricotJellyFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> AUTUMN_SKULLCAP = register("autumn_skullcap", AutumnSkullcapFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, AutumnSkullcapFeature.GENERATE_BIOMES,
+					AutumnSkullcapFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BAY_BOLETE = register("bay_bolete", BayBoleteFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, BayBoleteFeature.GENERATE_BIOMES, BayBoleteFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BEECH = register("beech", BeechFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, BeechFeature.GENERATE_BIOMES, BeechFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BIRCH_BOLETE = register("birch_bolete", BirchBoleteFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, BirchBoleteFeature.GENERATE_BIOMES, BirchBoleteFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BLEEDING_TOOTH = register("bleeding_tooth", BleedingToothFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, BleedingToothFeature.GENERATE_BIOMES, BleedingToothFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BLUE_CHANTERELLE = register("blue_chanterelle", BlueChanterelleFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, BlueChanterelleFeature.GENERATE_BIOMES,
+					BlueChanterelleFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BLUE_GLOW_MUSHROOM = register("blue_glow_mushroom", BlueGlowMushroomFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, BlueGlowMushroomFeature.GENERATE_BIOMES,
+					BlueGlowMushroomFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BLUE_KNIGHT = register("blue_knight", BlueKnightFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, BlueKnightFeature.GENERATE_BIOMES, BlueKnightFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

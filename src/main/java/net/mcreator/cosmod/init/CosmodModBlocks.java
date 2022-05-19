@@ -59,8 +59,16 @@ import net.mcreator.cosmod.block.CallalilyBlock;
 import net.mcreator.cosmod.block.ButtercupFlowersBlock;
 import net.mcreator.cosmod.block.BooksAndBottlesBlock;
 import net.mcreator.cosmod.block.BluePansiesBlock;
+import net.mcreator.cosmod.block.BlueKnightBlock;
 import net.mcreator.cosmod.block.BlueIrisBlock;
+import net.mcreator.cosmod.block.BlueGlowMushroomBlock;
+import net.mcreator.cosmod.block.BlueChanterelleBlock;
+import net.mcreator.cosmod.block.BleedingToothBlock;
+import net.mcreator.cosmod.block.BirchBoleteBlock;
 import net.mcreator.cosmod.block.BigLemonTartBlock;
+import net.mcreator.cosmod.block.BeechBlock;
+import net.mcreator.cosmod.block.BayBoleteBlock;
+import net.mcreator.cosmod.block.AutumnSkullcapBlock;
 import net.mcreator.cosmod.block.ApricotJellyBlock;
 import net.mcreator.cosmod.block.AngelsWingBlock;
 import net.mcreator.cosmod.CosmodMod;
@@ -124,6 +132,14 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> BIG_LEMON_TART = REGISTRY.register("big_lemon_tart", () -> new BigLemonTartBlock());
 	public static final RegistryObject<Block> ANGELS_WING = REGISTRY.register("angels_wing", () -> new AngelsWingBlock());
 	public static final RegistryObject<Block> APRICOT_JELLY = REGISTRY.register("apricot_jelly", () -> new ApricotJellyBlock());
+	public static final RegistryObject<Block> AUTUMN_SKULLCAP = REGISTRY.register("autumn_skullcap", () -> new AutumnSkullcapBlock());
+	public static final RegistryObject<Block> BAY_BOLETE = REGISTRY.register("bay_bolete", () -> new BayBoleteBlock());
+	public static final RegistryObject<Block> BEECH = REGISTRY.register("beech", () -> new BeechBlock());
+	public static final RegistryObject<Block> BIRCH_BOLETE = REGISTRY.register("birch_bolete", () -> new BirchBoleteBlock());
+	public static final RegistryObject<Block> BLEEDING_TOOTH = REGISTRY.register("bleeding_tooth", () -> new BleedingToothBlock());
+	public static final RegistryObject<Block> BLUE_CHANTERELLE = REGISTRY.register("blue_chanterelle", () -> new BlueChanterelleBlock());
+	public static final RegistryObject<Block> BLUE_GLOW_MUSHROOM = REGISTRY.register("blue_glow_mushroom", () -> new BlueGlowMushroomBlock());
+	public static final RegistryObject<Block> BLUE_KNIGHT = REGISTRY.register("blue_knight", () -> new BlueKnightBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -169,6 +185,14 @@ public class CosmodModBlocks {
 			BigLemonTartBlock.registerRenderLayer();
 			AngelsWingBlock.registerRenderLayer();
 			ApricotJellyBlock.registerRenderLayer();
+			AutumnSkullcapBlock.registerRenderLayer();
+			BayBoleteBlock.registerRenderLayer();
+			BeechBlock.registerRenderLayer();
+			BirchBoleteBlock.registerRenderLayer();
+			BleedingToothBlock.registerRenderLayer();
+			BlueChanterelleBlock.registerRenderLayer();
+			BlueGlowMushroomBlock.registerRenderLayer();
+			BlueKnightBlock.registerRenderLayer();
 		}
 	}
 }
