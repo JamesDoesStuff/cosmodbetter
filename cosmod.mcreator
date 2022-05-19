@@ -1185,6 +1185,15 @@
       "locked_code": false,
       "registry_name": "big_lemon_tart",
       "path": "~/food"
+    },
+    {
+      "name": "AngelsWing",
+      "type": "plant",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angels_wing",
+      "path": "~/Mushrooms"
     }
   ],
   "variable_elements": [],
@@ -1249,6 +1258,7 @@
       "entity.cosmod.red_mushling": "Red Mushling",
       "block.cosmod.purpleblackhollyhock": "Purple Black hollyhock",
       "block.cosmod.stack_of_logs": "Stack Of Logs",
+      "block.cosmod.angels_wing": "Angels Wing",
       "item.cosmod.amethyst_dagger": "Amethyst Dagger",
       "entity.cosmod.brown_mushling": "Brown Mushling",
       "entity.cosmod.leek_sprite": "Leek Sprite",
