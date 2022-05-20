@@ -36,6 +36,9 @@ import net.mcreator.cosmod.world.features.plants.LavenderBushFeature;
 import net.mcreator.cosmod.world.features.plants.HotPinkHollyhockFeature;
 import net.mcreator.cosmod.world.features.plants.GoldenPinkPansiesFeature;
 import net.mcreator.cosmod.world.features.plants.DesertMallowFeature;
+import net.mcreator.cosmod.world.features.plants.DarkscaledKnightFeature;
+import net.mcreator.cosmod.world.features.plants.CrimsonWaxcapFeature;
+import net.mcreator.cosmod.world.features.plants.CookeinaFeature;
 import net.mcreator.cosmod.world.features.plants.ColumnStinkhornFeature;
 import net.mcreator.cosmod.world.features.plants.ClusteredCoralFeature;
 import net.mcreator.cosmod.world.features.plants.ChinguluFeature;
@@ -179,6 +182,13 @@ public class CosmodModFeatures {
 	public static final RegistryObject<Feature<?>> COLUMN_STINKHORN = register("column_stinkhorn", ColumnStinkhornFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, ColumnStinkhornFeature.GENERATE_BIOMES,
 					ColumnStinkhornFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> COOKEINA = register("cookeina", CookeinaFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, CookeinaFeature.GENERATE_BIOMES, CookeinaFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> CRIMSON_WAXCAP = register("crimson_waxcap", CrimsonWaxcapFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, CrimsonWaxcapFeature.GENERATE_BIOMES, CrimsonWaxcapFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DARKSCALED_KNIGHT = register("darkscaled_knight", DarkscaledKnightFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, DarkscaledKnightFeature.GENERATE_BIOMES,
+					DarkscaledKnightFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

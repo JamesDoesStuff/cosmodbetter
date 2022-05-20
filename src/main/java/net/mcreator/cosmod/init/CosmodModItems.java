@@ -133,6 +133,9 @@ public class CosmodModItems {
 	public static final RegistryObject<Item> CHINGULU = block(CosmodModBlocks.CHINGULU, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> CLUSTERED_CORAL = block(CosmodModBlocks.CLUSTERED_CORAL, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> COLUMN_STINKHORN = block(CosmodModBlocks.COLUMN_STINKHORN, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> COOKEINA = block(CosmodModBlocks.COOKEINA, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CRIMSON_WAXCAP = block(CosmodModBlocks.CRIMSON_WAXCAP, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DARKSCALED_KNIGHT = block(CosmodModBlocks.DARKSCALED_KNIGHT, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

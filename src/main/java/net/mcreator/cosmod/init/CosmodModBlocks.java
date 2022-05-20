@@ -48,8 +48,11 @@ import net.mcreator.cosmod.block.FlamingoOysterGrowLog3Block;
 import net.mcreator.cosmod.block.FlamingoOysterGrowLog2Block;
 import net.mcreator.cosmod.block.FlamingoOysterGrowLog1Block;
 import net.mcreator.cosmod.block.DesertMallowBlock;
+import net.mcreator.cosmod.block.DarkscaledKnightBlock;
+import net.mcreator.cosmod.block.CrimsonWaxcapBlock;
 import net.mcreator.cosmod.block.CosmeticTableBlock;
 import net.mcreator.cosmod.block.CorruptedRunestoneBlock;
+import net.mcreator.cosmod.block.CookeinaBlock;
 import net.mcreator.cosmod.block.ColumnStinkhornBlock;
 import net.mcreator.cosmod.block.ClusteredCoralBlock;
 import net.mcreator.cosmod.block.ChinguluBlock;
@@ -162,6 +165,9 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> CHINGULU = REGISTRY.register("chingulu", () -> new ChinguluBlock());
 	public static final RegistryObject<Block> CLUSTERED_CORAL = REGISTRY.register("clustered_coral", () -> new ClusteredCoralBlock());
 	public static final RegistryObject<Block> COLUMN_STINKHORN = REGISTRY.register("column_stinkhorn", () -> new ColumnStinkhornBlock());
+	public static final RegistryObject<Block> COOKEINA = REGISTRY.register("cookeina", () -> new CookeinaBlock());
+	public static final RegistryObject<Block> CRIMSON_WAXCAP = REGISTRY.register("crimson_waxcap", () -> new CrimsonWaxcapBlock());
+	public static final RegistryObject<Block> DARKSCALED_KNIGHT = REGISTRY.register("darkscaled_knight", () -> new DarkscaledKnightBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -226,6 +232,9 @@ public class CosmodModBlocks {
 			ChinguluBlock.registerRenderLayer();
 			ClusteredCoralBlock.registerRenderLayer();
 			ColumnStinkhornBlock.registerRenderLayer();
+			CookeinaBlock.registerRenderLayer();
+			CrimsonWaxcapBlock.registerRenderLayer();
+			DarkscaledKnightBlock.registerRenderLayer();
 		}
 	}
 }
