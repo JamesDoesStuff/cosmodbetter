@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cosmod:blocks/deadlywebcap",
+    "particle": "cosmod:blocks/deadlywebcap"
+  }
+}

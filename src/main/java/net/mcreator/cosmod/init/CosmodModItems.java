@@ -112,7 +112,7 @@ public class CosmodModItems {
 			() -> new ForgeSpawnEggItem(CosmodModEntities.KING_PINEWOOD_MUSHLING, -10079488, -6750208,
 					new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> BIG_LEMON_TART = block(CosmodModBlocks.BIG_LEMON_TART, CosmodModTabs.TAB_COSMOD);
-	public static final RegistryObject<Item> ANGELS_WING = block(CosmodModBlocks.ANGELS_WING, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ANGELS_WING = block(CosmodModBlocks.ANGELS_WING, CosmodModTabs.TAB_PLANTS);
 	public static final RegistryObject<Item> APRICOT_JELLY = block(CosmodModBlocks.APRICOT_JELLY, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> AUTUMN_SKULLCAP = block(CosmodModBlocks.AUTUMN_SKULLCAP, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BAY_BOLETE = block(CosmodModBlocks.BAY_BOLETE, CreativeModeTab.TAB_DECORATIONS);
@@ -136,6 +136,21 @@ public class CosmodModItems {
 	public static final RegistryObject<Item> COOKEINA = block(CosmodModBlocks.COOKEINA, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> CRIMSON_WAXCAP = block(CosmodModBlocks.CRIMSON_WAXCAP, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> DARKSCALED_KNIGHT = block(CosmodModBlocks.DARKSCALED_KNIGHT, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DEADLY_WEBCAP = block(CosmodModBlocks.DEADLY_WEBCAP, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DEAD_MANS_FINGERS = block(CosmodModBlocks.DEAD_MANS_FINGERS, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DEATH_CAP = block(CosmodModBlocks.DEATH_CAP, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DESTROYING_ANGELS = block(CosmodModBlocks.DESTROYING_ANGELS, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DEVILS_CIGAR = block(CosmodModBlocks.DEVILS_CIGAR, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> DEVILS_EGGS = block(CosmodModBlocks.DEVILS_EGGS, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> EARTHSTAR = block(CosmodModBlocks.EARTHSTAR, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ELFIN_SADDLE = block(CosmodModBlocks.ELFIN_SADDLE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> FAIRY_RING_SHROOM = block(CosmodModBlocks.FAIRY_RING_SHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> FALSE_MOREL = block(CosmodModBlocks.FALSE_MOREL, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> FLY_AGARIC = block(CosmodModBlocks.FLY_AGARIC, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> GOLDEN_CHANTERELLE = block(CosmodModBlocks.GOLDEN_CHANTERELLE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> GREEN_GLOWSHROOM = block(CosmodModBlocks.GREEN_GLOWSHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> HEN_OF_THE_WOODS = block(CosmodModBlocks.HEN_OF_THE_WOODS, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> HONEY_MUSHROOM = block(CosmodModBlocks.HONEY_MUSHROOM, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -34,8 +34,23 @@ import net.mcreator.cosmod.world.features.plants.MagentaPansiesFeature;
 import net.mcreator.cosmod.world.features.plants.LavenderBushShortFeature;
 import net.mcreator.cosmod.world.features.plants.LavenderBushFeature;
 import net.mcreator.cosmod.world.features.plants.HotPinkHollyhockFeature;
+import net.mcreator.cosmod.world.features.plants.HoneyMushroomFeature;
+import net.mcreator.cosmod.world.features.plants.HenOfTheWoodsFeature;
+import net.mcreator.cosmod.world.features.plants.GreenGlowshroomFeature;
 import net.mcreator.cosmod.world.features.plants.GoldenPinkPansiesFeature;
+import net.mcreator.cosmod.world.features.plants.GoldenChanterelleFeature;
+import net.mcreator.cosmod.world.features.plants.FlyAgaricFeature;
+import net.mcreator.cosmod.world.features.plants.FalseMorelFeature;
+import net.mcreator.cosmod.world.features.plants.FairyRingShroomFeature;
+import net.mcreator.cosmod.world.features.plants.ElfinSaddleFeature;
+import net.mcreator.cosmod.world.features.plants.EarthstarFeature;
+import net.mcreator.cosmod.world.features.plants.DevilsEggsFeature;
+import net.mcreator.cosmod.world.features.plants.DevilsCigarFeature;
+import net.mcreator.cosmod.world.features.plants.DestroyingAngelsFeature;
 import net.mcreator.cosmod.world.features.plants.DesertMallowFeature;
+import net.mcreator.cosmod.world.features.plants.DeathCapFeature;
+import net.mcreator.cosmod.world.features.plants.DeadlyWebcapFeature;
+import net.mcreator.cosmod.world.features.plants.DeadMansFingersFeature;
 import net.mcreator.cosmod.world.features.plants.DarkscaledKnightFeature;
 import net.mcreator.cosmod.world.features.plants.CrimsonWaxcapFeature;
 import net.mcreator.cosmod.world.features.plants.CookeinaFeature;
@@ -189,6 +204,42 @@ public class CosmodModFeatures {
 	public static final RegistryObject<Feature<?>> DARKSCALED_KNIGHT = register("darkscaled_knight", DarkscaledKnightFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, DarkscaledKnightFeature.GENERATE_BIOMES,
 					DarkscaledKnightFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DEADLY_WEBCAP = register("deadly_webcap", DeadlyWebcapFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, DeadlyWebcapFeature.GENERATE_BIOMES, DeadlyWebcapFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DEAD_MANS_FINGERS = register("dead_mans_fingers", DeadMansFingersFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, DeadMansFingersFeature.GENERATE_BIOMES,
+					DeadMansFingersFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DEATH_CAP = register("death_cap", DeathCapFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, DeathCapFeature.GENERATE_BIOMES, DeathCapFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DESTROYING_ANGELS = register("destroying_angels", DestroyingAngelsFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, DestroyingAngelsFeature.GENERATE_BIOMES,
+					DestroyingAngelsFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DEVILS_CIGAR = register("devils_cigar", DevilsCigarFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, DevilsCigarFeature.GENERATE_BIOMES, DevilsCigarFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DEVILS_EGGS = register("devils_eggs", DevilsEggsFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, DevilsEggsFeature.GENERATE_BIOMES, DevilsEggsFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> EARTHSTAR = register("earthstar", EarthstarFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, EarthstarFeature.GENERATE_BIOMES, EarthstarFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ELFIN_SADDLE = register("elfin_saddle", ElfinSaddleFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, ElfinSaddleFeature.GENERATE_BIOMES, ElfinSaddleFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> FAIRY_RING_SHROOM = register("fairy_ring_shroom", FairyRingShroomFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, FairyRingShroomFeature.GENERATE_BIOMES,
+					FairyRingShroomFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> FALSE_MOREL = register("false_morel", FalseMorelFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, FalseMorelFeature.GENERATE_BIOMES, FalseMorelFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> FLY_AGARIC = register("fly_agaric", FlyAgaricFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, FlyAgaricFeature.GENERATE_BIOMES, FlyAgaricFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> GOLDEN_CHANTERELLE = register("golden_chanterelle", GoldenChanterelleFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, GoldenChanterelleFeature.GENERATE_BIOMES,
+					GoldenChanterelleFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> GREEN_GLOWSHROOM = register("green_glowshroom", GreenGlowshroomFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, GreenGlowshroomFeature.GENERATE_BIOMES,
+					GreenGlowshroomFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HEN_OF_THE_WOODS = register("hen_of_the_woods", HenOfTheWoodsFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, HenOfTheWoodsFeature.GENERATE_BIOMES,
+					HenOfTheWoodsFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HONEY_MUSHROOM = register("honey_mushroom", HoneyMushroomFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, HoneyMushroomFeature.GENERATE_BIOMES, HoneyMushroomFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

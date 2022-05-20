@@ -43,11 +43,26 @@ import net.mcreator.cosmod.block.LavenderBushShortBlock;
 import net.mcreator.cosmod.block.LavenderBushBlock;
 import net.mcreator.cosmod.block.JubileeRoseBushBlock;
 import net.mcreator.cosmod.block.HotPinkHollyhockBlock;
+import net.mcreator.cosmod.block.HoneyMushroomBlock;
+import net.mcreator.cosmod.block.HenOfTheWoodsBlock;
+import net.mcreator.cosmod.block.GreenGlowshroomBlock;
 import net.mcreator.cosmod.block.GoldenPinkPansiesBlock;
+import net.mcreator.cosmod.block.GoldenChanterelleBlock;
+import net.mcreator.cosmod.block.FlyAgaricBlock;
 import net.mcreator.cosmod.block.FlamingoOysterGrowLog3Block;
 import net.mcreator.cosmod.block.FlamingoOysterGrowLog2Block;
 import net.mcreator.cosmod.block.FlamingoOysterGrowLog1Block;
+import net.mcreator.cosmod.block.FalseMorelBlock;
+import net.mcreator.cosmod.block.FairyRingShroomBlock;
+import net.mcreator.cosmod.block.ElfinSaddleBlock;
+import net.mcreator.cosmod.block.EarthstarBlock;
+import net.mcreator.cosmod.block.DevilsEggsBlock;
+import net.mcreator.cosmod.block.DevilsCigarBlock;
+import net.mcreator.cosmod.block.DestroyingAngelsBlock;
 import net.mcreator.cosmod.block.DesertMallowBlock;
+import net.mcreator.cosmod.block.DeathCapBlock;
+import net.mcreator.cosmod.block.DeadlyWebcapBlock;
+import net.mcreator.cosmod.block.DeadMansFingersBlock;
 import net.mcreator.cosmod.block.DarkscaledKnightBlock;
 import net.mcreator.cosmod.block.CrimsonWaxcapBlock;
 import net.mcreator.cosmod.block.CosmeticTableBlock;
@@ -168,6 +183,21 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> COOKEINA = REGISTRY.register("cookeina", () -> new CookeinaBlock());
 	public static final RegistryObject<Block> CRIMSON_WAXCAP = REGISTRY.register("crimson_waxcap", () -> new CrimsonWaxcapBlock());
 	public static final RegistryObject<Block> DARKSCALED_KNIGHT = REGISTRY.register("darkscaled_knight", () -> new DarkscaledKnightBlock());
+	public static final RegistryObject<Block> DEADLY_WEBCAP = REGISTRY.register("deadly_webcap", () -> new DeadlyWebcapBlock());
+	public static final RegistryObject<Block> DEAD_MANS_FINGERS = REGISTRY.register("dead_mans_fingers", () -> new DeadMansFingersBlock());
+	public static final RegistryObject<Block> DEATH_CAP = REGISTRY.register("death_cap", () -> new DeathCapBlock());
+	public static final RegistryObject<Block> DESTROYING_ANGELS = REGISTRY.register("destroying_angels", () -> new DestroyingAngelsBlock());
+	public static final RegistryObject<Block> DEVILS_CIGAR = REGISTRY.register("devils_cigar", () -> new DevilsCigarBlock());
+	public static final RegistryObject<Block> DEVILS_EGGS = REGISTRY.register("devils_eggs", () -> new DevilsEggsBlock());
+	public static final RegistryObject<Block> EARTHSTAR = REGISTRY.register("earthstar", () -> new EarthstarBlock());
+	public static final RegistryObject<Block> ELFIN_SADDLE = REGISTRY.register("elfin_saddle", () -> new ElfinSaddleBlock());
+	public static final RegistryObject<Block> FAIRY_RING_SHROOM = REGISTRY.register("fairy_ring_shroom", () -> new FairyRingShroomBlock());
+	public static final RegistryObject<Block> FALSE_MOREL = REGISTRY.register("false_morel", () -> new FalseMorelBlock());
+	public static final RegistryObject<Block> FLY_AGARIC = REGISTRY.register("fly_agaric", () -> new FlyAgaricBlock());
+	public static final RegistryObject<Block> GOLDEN_CHANTERELLE = REGISTRY.register("golden_chanterelle", () -> new GoldenChanterelleBlock());
+	public static final RegistryObject<Block> GREEN_GLOWSHROOM = REGISTRY.register("green_glowshroom", () -> new GreenGlowshroomBlock());
+	public static final RegistryObject<Block> HEN_OF_THE_WOODS = REGISTRY.register("hen_of_the_woods", () -> new HenOfTheWoodsBlock());
+	public static final RegistryObject<Block> HONEY_MUSHROOM = REGISTRY.register("honey_mushroom", () -> new HoneyMushroomBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -235,6 +265,21 @@ public class CosmodModBlocks {
 			CookeinaBlock.registerRenderLayer();
 			CrimsonWaxcapBlock.registerRenderLayer();
 			DarkscaledKnightBlock.registerRenderLayer();
+			DeadlyWebcapBlock.registerRenderLayer();
+			DeadMansFingersBlock.registerRenderLayer();
+			DeathCapBlock.registerRenderLayer();
+			DestroyingAngelsBlock.registerRenderLayer();
+			DevilsCigarBlock.registerRenderLayer();
+			DevilsEggsBlock.registerRenderLayer();
+			EarthstarBlock.registerRenderLayer();
+			ElfinSaddleBlock.registerRenderLayer();
+			FairyRingShroomBlock.registerRenderLayer();
+			FalseMorelBlock.registerRenderLayer();
+			FlyAgaricBlock.registerRenderLayer();
+			GoldenChanterelleBlock.registerRenderLayer();
+			GreenGlowshroomBlock.registerRenderLayer();
+			HenOfTheWoodsBlock.registerRenderLayer();
+			HoneyMushroomBlock.registerRenderLayer();
 		}
 	}
 }
