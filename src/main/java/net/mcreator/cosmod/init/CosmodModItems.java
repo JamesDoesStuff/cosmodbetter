@@ -151,6 +151,21 @@ public class CosmodModItems {
 	public static final RegistryObject<Item> GREEN_GLOWSHROOM = block(CosmodModBlocks.GREEN_GLOWSHROOM, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> HEN_OF_THE_WOODS = block(CosmodModBlocks.HEN_OF_THE_WOODS, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> HONEY_MUSHROOM = block(CosmodModBlocks.HONEY_MUSHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> HORN_OF_PLENTY = block(CosmodModBlocks.HORN_OF_PLENTY, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> HORSE_SHROOM = block(CosmodModBlocks.HORSE_SHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> INDIGO_MILKCAP = block(CosmodModBlocks.INDIGO_MILKCAP, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> INKCAP = block(CosmodModBlocks.INKCAP, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> KING_TRUMPET = block(CosmodModBlocks.KING_TRUMPET, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> KORU_GREEN = block(CosmodModBlocks.KORU_GREEN, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> LANTERN_MUSHROOM = block(CosmodModBlocks.LANTERN_MUSHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> LATTICE_MUSHROOM = block(CosmodModBlocks.LATTICE_MUSHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> LAUGHING_GYM = block(CosmodModBlocks.LAUGHING_GYM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> MAGENTA_GLOWSHROOM = block(CosmodModBlocks.MAGENTA_GLOWSHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> MAGIC_SHROOM = block(CosmodModBlocks.MAGIC_SHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> MAN_ON_HORSEBACK = block(CosmodModBlocks.MAN_ON_HORSEBACK, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> MATSUTAKE = block(CosmodModBlocks.MATSUTAKE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> MEADOW_MUSHROOM = block(CosmodModBlocks.MEADOW_MUSHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> MICA_CAP = block(CosmodModBlocks.MICA_CAP, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

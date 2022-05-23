@@ -37,12 +37,27 @@ import net.mcreator.cosmod.block.OrangePurplePansiesBlock;
 import net.mcreator.cosmod.block.OrangePansiesBlock;
 import net.mcreator.cosmod.block.NativeBlueLupineBlock;
 import net.mcreator.cosmod.block.MushroomGrowLogBlock;
+import net.mcreator.cosmod.block.MicaCapBlock;
 import net.mcreator.cosmod.block.MelonbreadBlock;
+import net.mcreator.cosmod.block.MeadowMushroomBlock;
+import net.mcreator.cosmod.block.MatsutakeBlock;
+import net.mcreator.cosmod.block.ManOnHorsebackBlock;
+import net.mcreator.cosmod.block.MagicShroomBlock;
 import net.mcreator.cosmod.block.MagentaPansiesBlock;
+import net.mcreator.cosmod.block.MagentaGlowshroomBlock;
 import net.mcreator.cosmod.block.LavenderBushShortBlock;
 import net.mcreator.cosmod.block.LavenderBushBlock;
+import net.mcreator.cosmod.block.LaughingGymBlock;
+import net.mcreator.cosmod.block.LatticeMushroomBlock;
+import net.mcreator.cosmod.block.LanternMushroomBlock;
+import net.mcreator.cosmod.block.KoruGreenBlock;
+import net.mcreator.cosmod.block.KingTrumpetBlock;
 import net.mcreator.cosmod.block.JubileeRoseBushBlock;
+import net.mcreator.cosmod.block.InkcapBlock;
+import net.mcreator.cosmod.block.IndigoMilkcapBlock;
 import net.mcreator.cosmod.block.HotPinkHollyhockBlock;
+import net.mcreator.cosmod.block.HorseShroomBlock;
+import net.mcreator.cosmod.block.HornOfPlentyBlock;
 import net.mcreator.cosmod.block.HoneyMushroomBlock;
 import net.mcreator.cosmod.block.HenOfTheWoodsBlock;
 import net.mcreator.cosmod.block.GreenGlowshroomBlock;
@@ -198,6 +213,21 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> GREEN_GLOWSHROOM = REGISTRY.register("green_glowshroom", () -> new GreenGlowshroomBlock());
 	public static final RegistryObject<Block> HEN_OF_THE_WOODS = REGISTRY.register("hen_of_the_woods", () -> new HenOfTheWoodsBlock());
 	public static final RegistryObject<Block> HONEY_MUSHROOM = REGISTRY.register("honey_mushroom", () -> new HoneyMushroomBlock());
+	public static final RegistryObject<Block> HORN_OF_PLENTY = REGISTRY.register("horn_of_plenty", () -> new HornOfPlentyBlock());
+	public static final RegistryObject<Block> HORSE_SHROOM = REGISTRY.register("horse_shroom", () -> new HorseShroomBlock());
+	public static final RegistryObject<Block> INDIGO_MILKCAP = REGISTRY.register("indigo_milkcap", () -> new IndigoMilkcapBlock());
+	public static final RegistryObject<Block> INKCAP = REGISTRY.register("inkcap", () -> new InkcapBlock());
+	public static final RegistryObject<Block> KING_TRUMPET = REGISTRY.register("king_trumpet", () -> new KingTrumpetBlock());
+	public static final RegistryObject<Block> KORU_GREEN = REGISTRY.register("koru_green", () -> new KoruGreenBlock());
+	public static final RegistryObject<Block> LANTERN_MUSHROOM = REGISTRY.register("lantern_mushroom", () -> new LanternMushroomBlock());
+	public static final RegistryObject<Block> LATTICE_MUSHROOM = REGISTRY.register("lattice_mushroom", () -> new LatticeMushroomBlock());
+	public static final RegistryObject<Block> LAUGHING_GYM = REGISTRY.register("laughing_gym", () -> new LaughingGymBlock());
+	public static final RegistryObject<Block> MAGENTA_GLOWSHROOM = REGISTRY.register("magenta_glowshroom", () -> new MagentaGlowshroomBlock());
+	public static final RegistryObject<Block> MAGIC_SHROOM = REGISTRY.register("magic_shroom", () -> new MagicShroomBlock());
+	public static final RegistryObject<Block> MAN_ON_HORSEBACK = REGISTRY.register("man_on_horseback", () -> new ManOnHorsebackBlock());
+	public static final RegistryObject<Block> MATSUTAKE = REGISTRY.register("matsutake", () -> new MatsutakeBlock());
+	public static final RegistryObject<Block> MEADOW_MUSHROOM = REGISTRY.register("meadow_mushroom", () -> new MeadowMushroomBlock());
+	public static final RegistryObject<Block> MICA_CAP = REGISTRY.register("mica_cap", () -> new MicaCapBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -280,6 +310,21 @@ public class CosmodModBlocks {
 			GreenGlowshroomBlock.registerRenderLayer();
 			HenOfTheWoodsBlock.registerRenderLayer();
 			HoneyMushroomBlock.registerRenderLayer();
+			HornOfPlentyBlock.registerRenderLayer();
+			HorseShroomBlock.registerRenderLayer();
+			IndigoMilkcapBlock.registerRenderLayer();
+			InkcapBlock.registerRenderLayer();
+			KingTrumpetBlock.registerRenderLayer();
+			KoruGreenBlock.registerRenderLayer();
+			LanternMushroomBlock.registerRenderLayer();
+			LatticeMushroomBlock.registerRenderLayer();
+			LaughingGymBlock.registerRenderLayer();
+			MagentaGlowshroomBlock.registerRenderLayer();
+			MagicShroomBlock.registerRenderLayer();
+			ManOnHorsebackBlock.registerRenderLayer();
+			MatsutakeBlock.registerRenderLayer();
+			MeadowMushroomBlock.registerRenderLayer();
+			MicaCapBlock.registerRenderLayer();
 		}
 	}
 }
