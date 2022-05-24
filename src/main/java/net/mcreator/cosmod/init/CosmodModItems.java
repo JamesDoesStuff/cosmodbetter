@@ -112,15 +112,15 @@ public class CosmodModItems {
 			() -> new ForgeSpawnEggItem(CosmodModEntities.KING_PINEWOOD_MUSHLING, -10079488, -6750208,
 					new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> BIG_LEMON_TART = block(CosmodModBlocks.BIG_LEMON_TART, CosmodModTabs.TAB_COSMOD);
-	public static final RegistryObject<Item> ANGELS_WING = block(CosmodModBlocks.ANGELS_WING, CosmodModTabs.TAB_PLANTS);
-	public static final RegistryObject<Item> APRICOT_JELLY = block(CosmodModBlocks.APRICOT_JELLY, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> AUTUMN_SKULLCAP = block(CosmodModBlocks.AUTUMN_SKULLCAP, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> BAY_BOLETE = block(CosmodModBlocks.BAY_BOLETE, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> BEECH = block(CosmodModBlocks.BEECH, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> BIRCH_BOLETE = block(CosmodModBlocks.BIRCH_BOLETE, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> BLEEDING_TOOTH = block(CosmodModBlocks.BLEEDING_TOOTH, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> BLUE_CHANTERELLE = block(CosmodModBlocks.BLUE_CHANTERELLE, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> BLUE_GLOW_MUSHROOM = block(CosmodModBlocks.BLUE_GLOW_MUSHROOM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ANGELS_WING = block(CosmodModBlocks.ANGELS_WING, CosmodModTabs.TAB_IMPORTED);
+	public static final RegistryObject<Item> APRICOT_JELLY = block(CosmodModBlocks.APRICOT_JELLY, CosmodModTabs.TAB_IMPORTED);
+	public static final RegistryObject<Item> AUTUMN_SKULLCAP = block(CosmodModBlocks.AUTUMN_SKULLCAP, CosmodModTabs.TAB_IMPORTED);
+	public static final RegistryObject<Item> BAY_BOLETE = block(CosmodModBlocks.BAY_BOLETE, CosmodModTabs.TAB_IMPORTED);
+	public static final RegistryObject<Item> BEECH = block(CosmodModBlocks.BEECH, CosmodModTabs.TAB_IMPORTED);
+	public static final RegistryObject<Item> BIRCH_BOLETE = block(CosmodModBlocks.BIRCH_BOLETE, CosmodModTabs.TAB_IMPORTED);
+	public static final RegistryObject<Item> BLEEDING_TOOTH = block(CosmodModBlocks.BLEEDING_TOOTH, CosmodModTabs.TAB_IMPORTED);
+	public static final RegistryObject<Item> BLUE_CHANTERELLE = block(CosmodModBlocks.BLUE_CHANTERELLE, CosmodModTabs.TAB_IMPORTED);
+	public static final RegistryObject<Item> BLUE_GLOW_MUSHROOM = block(CosmodModBlocks.BLUE_GLOW_MUSHROOM, CosmodModTabs.TAB_IMPORTED);
 	public static final RegistryObject<Item> BLUE_KNIGHT = block(CosmodModBlocks.BLUE_KNIGHT, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BLUING_BOLETE = block(CosmodModBlocks.BLUING_BOLETE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BRISTLED_SAWGILL = block(CosmodModBlocks.BRISTLED_SAWGILL, CreativeModeTab.TAB_DECORATIONS);

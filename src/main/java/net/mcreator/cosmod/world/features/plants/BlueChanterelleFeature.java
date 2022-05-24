@@ -34,8 +34,8 @@ public class BlueChanterelleFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new BlueChanterelleFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:blue_chanterelle", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.BLUE_CHANTERELLE.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:blue_chanterelle", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.BLUE_CHANTERELLE.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:blue_chanterelle", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

@@ -13,6 +13,7 @@ import net.minecraft.world.item.CreativeModeTab;
 public class CosmodModTabs {
 	public static CreativeModeTab TAB_COSMOD;
 	public static CreativeModeTab TAB_PLANTS;
+	public static CreativeModeTab TAB_IMPORTED;
 
 	public static void load() {
 		TAB_COSMOD = new CreativeModeTab("tabcosmod") {
@@ -30,6 +31,17 @@ public class CosmodModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(CosmodModBlocks.LAVENDER_BUSH_SHORT.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_IMPORTED = new CreativeModeTab("tabimported") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(CosmodModBlocks.ANGELS_WING.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

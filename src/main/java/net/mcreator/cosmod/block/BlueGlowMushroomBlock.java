@@ -28,7 +28,7 @@ import java.util.Collections;
 public class BlueGlowMushroomBlock extends FlowerBlock {
 	public BlueGlowMushroomBlock() {
 		super(MobEffects.GLOWING, 100, BlockBehaviour.Properties.of(Material.PLANT).noCollission().sound(SoundType.GRASS).instabreak()
-				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 5));
+				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 7));
 	}
 
 	@Override

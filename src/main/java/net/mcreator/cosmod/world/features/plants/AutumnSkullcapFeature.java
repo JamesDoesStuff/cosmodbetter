@@ -34,8 +34,8 @@ public class AutumnSkullcapFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new AutumnSkullcapFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:autumn_skullcap", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.AUTUMN_SKULLCAP.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:autumn_skullcap", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.AUTUMN_SKULLCAP.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:autumn_skullcap", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

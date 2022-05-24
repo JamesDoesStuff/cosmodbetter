@@ -33,11 +33,11 @@
     "name": "Blue Glow Mushroom",
     "specialInfo": [],
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:Imported"
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 5,
+    "luminance": 7,
     "unbreakable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -78,12 +78,10 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "patchSize": 64,
-    "generateAtAnyHeight": false
+    "patchSize": 4,
+    "generateAtAnyHeight": true
   }
 }

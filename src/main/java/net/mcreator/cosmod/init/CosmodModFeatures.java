@@ -120,7 +120,6 @@ import net.mcreator.cosmod.world.features.plants.BluingBoleteFeature;
 import net.mcreator.cosmod.world.features.plants.BluePansiesFeature;
 import net.mcreator.cosmod.world.features.plants.BlueKnightFeature;
 import net.mcreator.cosmod.world.features.plants.BlueIrisFeature;
-import net.mcreator.cosmod.world.features.plants.BlueGlowMushroomFeature;
 import net.mcreator.cosmod.world.features.plants.BlueChanterelleFeature;
 import net.mcreator.cosmod.world.features.plants.BleedingToothFeature;
 import net.mcreator.cosmod.world.features.plants.BirchBoleteFeature;
@@ -215,9 +214,6 @@ public class CosmodModFeatures {
 	public static final RegistryObject<Feature<?>> BLUE_CHANTERELLE = register("blue_chanterelle", BlueChanterelleFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, BlueChanterelleFeature.GENERATE_BIOMES,
 					BlueChanterelleFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> BLUE_GLOW_MUSHROOM = register("blue_glow_mushroom", BlueGlowMushroomFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, BlueGlowMushroomFeature.GENERATE_BIOMES,
-					BlueGlowMushroomFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> BLUE_KNIGHT = register("blue_knight", BlueKnightFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.VEGETAL_DECORATION, BlueKnightFeature.GENERATE_BIOMES, BlueKnightFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> BLUING_BOLETE = register("bluing_bolete", BluingBoleteFeature::feature, new FeatureRegistration(

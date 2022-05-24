@@ -33,7 +33,7 @@
     "name": "Angels Wing",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Plants"
+      "value": "CUSTOM:Imported"
     },
     "hardness": 0.0,
     "resistance": 0.0,
@@ -78,12 +78,12 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 64,
+    "patchSize": 3,
     "generateAtAnyHeight": false
   }
 }
