@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cosmod:blocks/red-crackedbolete",
+    "particle": "cosmod:blocks/red-crackedbolete"
+  }
+}
