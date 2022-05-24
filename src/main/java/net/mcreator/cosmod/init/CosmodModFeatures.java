@@ -19,7 +19,12 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.cosmod.world.features.plants.YellowHollyhockFeature;
 import net.mcreator.cosmod.world.features.plants.WhitePurplePansiesFeature;
+import net.mcreator.cosmod.world.features.plants.SwampRussulaFeature;
 import net.mcreator.cosmod.world.features.plants.SunsetIrisFeature;
+import net.mcreator.cosmod.world.features.plants.SulfurTuftFeature;
+import net.mcreator.cosmod.world.features.plants.SlipperyJackFeature;
+import net.mcreator.cosmod.world.features.plants.ShortStemmedRussulaFeature;
+import net.mcreator.cosmod.world.features.plants.ShiitakeFeature;
 import net.mcreator.cosmod.world.features.plants.ShaggyManeFeature;
 import net.mcreator.cosmod.world.features.plants.ScarletinaBoleteFeature;
 import net.mcreator.cosmod.world.features.plants.ScalyPholiotaFeature;
@@ -377,6 +382,17 @@ public class CosmodModFeatures {
 					ScarletinaBoleteFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> SHAGGY_MANE = register("shaggy_mane", ShaggyManeFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.VEGETAL_DECORATION, ShaggyManeFeature.GENERATE_BIOMES, ShaggyManeFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SHIITAKE = register("shiitake", ShiitakeFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, ShiitakeFeature.GENERATE_BIOMES, ShiitakeFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SLIPPERY_JACK = register("slippery_jack", SlipperyJackFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, SlipperyJackFeature.GENERATE_BIOMES, SlipperyJackFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SULFUR_TUFT = register("sulfur_tuft", SulfurTuftFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, SulfurTuftFeature.GENERATE_BIOMES, SulfurTuftFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SWAMP_RUSSULA = register("swamp_russula", SwampRussulaFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, SwampRussulaFeature.GENERATE_BIOMES, SwampRussulaFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SHORT_STEMMED_RUSSULA = register("short_stemmed_russula", ShortStemmedRussulaFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, ShortStemmedRussulaFeature.GENERATE_BIOMES,
+					ShortStemmedRussulaFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -1896,6 +1896,51 @@
       "locked_code": false,
       "registry_name": "shaggy_mane",
       "path": "~/Mushrooms"
+    },
+    {
+      "name": "Shiitake",
+      "type": "plant",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shiitake",
+      "path": "~/Mushrooms"
+    },
+    {
+      "name": "SlipperyJack",
+      "type": "plant",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slippery_jack",
+      "path": "~/Mushrooms"
+    },
+    {
+      "name": "SulfurTuft",
+      "type": "plant",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_tuft",
+      "path": "~/Mushrooms"
+    },
+    {
+      "name": "SwampRussula",
+      "type": "plant",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_russula",
+      "path": "~/Mushrooms"
+    },
+    {
+      "name": "ShortStemmedRussula",
+      "type": "plant",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_stemmed_russula",
+      "path": "~/Mushrooms"
     }
   ],
   "variable_elements": [],
@@ -1908,6 +1953,7 @@
       "item.cosmod.flamingo_oyster_spores": "Flamingo Oyster Spores",
       "block.cosmod.yellow_hollyhock": "Yellow Hollyhock",
       "block.cosmod.blue_chanterelle": "Blue Chanterelle",
+      "block.cosmod.sulfur_tuft": "Sulfur Tuft",
       "block.cosmod.strawberry_cremetart": "Strawberry Cremetart",
       "block.cosmod.caterpillar_fungi": "Caterpillar Fungi",
       "block.cosmod.matsutake": "Matsutake",
@@ -1935,6 +1981,7 @@
       "block.cosmod.cauliflower_fungi": "Cauliflower Fungi",
       "block.cosmod.deadly_webcap": "Deadly Webcap",
       "block.cosmod.devils_eggs": "Devils Eggs",
+      "block.cosmod.swamp_russula": "Swamp Russula",
       "block.cosmod.runic_grass_block": "Runic Grass Block",
       "block.cosmod.inkcap": "Inkcap",
       "block.cosmod.cherry_blossom_leaves": "Cherry Blossom Leaves",
@@ -1976,6 +2023,7 @@
       "block.cosmod.native_blue_lupine": "Native Blue Lupine",
       "item.cosmod.leather_gauntlet": "Leather Gauntlet",
       "block.cosmod.parasol_shroom": "Parasol Shroom",
+      "block.cosmod.short_stemmed_russula": "Short Stemmed Russula",
       "block.cosmod.apricot_jelly": "Apricot Jelly",
       "block.cosmod.lavender_bush": "Lavender Bush",
       "block.cosmod.orange_purple_pansies": "Orange Purple Pansies",
@@ -1994,6 +2042,7 @@
       "block.cosmod.sandy_stiltball": "Sandy Stiltball",
       "block.cosmod.nameko": "Nameko",
       "block.cosmod.old_man_of_the_wood": "Old Man Of The Wood",
+      "block.cosmod.shiitake": "Shiitake",
       "block.cosmod.runestone": "Runestone",
       "block.cosmod.scaber_stalk": "Scaber Stalk",
       "block.cosmod.pink_heart_cake": "Pink Heart Cake",
@@ -2026,6 +2075,7 @@
       "block.cosmod.rufous_milkcap": "Rufous Milkcap",
       "block.cosmod.cherry_blossom_stairs": "Cherry Blossom Stairs",
       "block.cosmod.purplehollyhock": "Purple Hollyhock",
+      "block.cosmod.slippery_jack": "Slippery Jack",
       "block.cosmod.cookeina": "Cookeina",
       "block.cosmod.fairy_ring_shroom": "Fairy Ring Shroom",
       "block.cosmod.melonbread": "Melonbread",

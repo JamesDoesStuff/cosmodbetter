@@ -191,6 +191,11 @@ public class CosmodModItems {
 	public static final RegistryObject<Item> SCALY_PHOLIOTA = block(CosmodModBlocks.SCALY_PHOLIOTA, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> SCARLETINA_BOLETE = block(CosmodModBlocks.SCARLETINA_BOLETE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> SHAGGY_MANE = block(CosmodModBlocks.SHAGGY_MANE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SHIITAKE = block(CosmodModBlocks.SHIITAKE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SLIPPERY_JACK = block(CosmodModBlocks.SLIPPERY_JACK, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SULFUR_TUFT = block(CosmodModBlocks.SULFUR_TUFT, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SWAMP_RUSSULA = block(CosmodModBlocks.SWAMP_RUSSULA, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SHORT_STEMMED_RUSSULA = block(CosmodModBlocks.SHORT_STEMMED_RUSSULA, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

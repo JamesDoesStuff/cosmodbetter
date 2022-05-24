@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cosmod:blocks/swamprussula",
+    "particle": "cosmod:blocks/swamprussula"
+  }
+}

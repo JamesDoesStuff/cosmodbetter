@@ -17,10 +17,15 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.cosmod.block.YellowHollyhockBlock;
 import net.mcreator.cosmod.block.WhitePurplePansiesBlock;
 import net.mcreator.cosmod.block.ThiccCakeBlock;
+import net.mcreator.cosmod.block.SwampRussulaBlock;
 import net.mcreator.cosmod.block.SunsetIrisBlock;
+import net.mcreator.cosmod.block.SulfurTuftBlock;
 import net.mcreator.cosmod.block.StrawberryCremetartBlock;
 import net.mcreator.cosmod.block.StackofoldbooksBlock;
 import net.mcreator.cosmod.block.StackOfLogsBlock;
+import net.mcreator.cosmod.block.SlipperyJackBlock;
+import net.mcreator.cosmod.block.ShortStemmedRussulaBlock;
+import net.mcreator.cosmod.block.ShiitakeBlock;
 import net.mcreator.cosmod.block.ShaggyManeBlock;
 import net.mcreator.cosmod.block.ScarletinaBoleteBlock;
 import net.mcreator.cosmod.block.ScalyPholiotaBlock;
@@ -278,6 +283,12 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> SCALY_PHOLIOTA = REGISTRY.register("scaly_pholiota", () -> new ScalyPholiotaBlock());
 	public static final RegistryObject<Block> SCARLETINA_BOLETE = REGISTRY.register("scarletina_bolete", () -> new ScarletinaBoleteBlock());
 	public static final RegistryObject<Block> SHAGGY_MANE = REGISTRY.register("shaggy_mane", () -> new ShaggyManeBlock());
+	public static final RegistryObject<Block> SHIITAKE = REGISTRY.register("shiitake", () -> new ShiitakeBlock());
+	public static final RegistryObject<Block> SLIPPERY_JACK = REGISTRY.register("slippery_jack", () -> new SlipperyJackBlock());
+	public static final RegistryObject<Block> SULFUR_TUFT = REGISTRY.register("sulfur_tuft", () -> new SulfurTuftBlock());
+	public static final RegistryObject<Block> SWAMP_RUSSULA = REGISTRY.register("swamp_russula", () -> new SwampRussulaBlock());
+	public static final RegistryObject<Block> SHORT_STEMMED_RUSSULA = REGISTRY.register("short_stemmed_russula",
+			() -> new ShortStemmedRussulaBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -400,6 +411,11 @@ public class CosmodModBlocks {
 			ScalyPholiotaBlock.registerRenderLayer();
 			ScarletinaBoleteBlock.registerRenderLayer();
 			ShaggyManeBlock.registerRenderLayer();
+			ShiitakeBlock.registerRenderLayer();
+			SlipperyJackBlock.registerRenderLayer();
+			SulfurTuftBlock.registerRenderLayer();
+			SwampRussulaBlock.registerRenderLayer();
+			ShortStemmedRussulaBlock.registerRenderLayer();
 		}
 	}
 }

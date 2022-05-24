@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cosmod:blocks/short-stemmedrussula",
+    "particle": "cosmod:blocks/short-stemmedrussula"
+  }
+}
