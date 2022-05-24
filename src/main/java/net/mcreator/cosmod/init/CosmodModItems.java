@@ -196,6 +196,11 @@ public class CosmodModItems {
 	public static final RegistryObject<Item> SULFUR_TUFT = block(CosmodModBlocks.SULFUR_TUFT, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> SWAMP_RUSSULA = block(CosmodModBlocks.SWAMP_RUSSULA, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> SHORT_STEMMED_RUSSULA = block(CosmodModBlocks.SHORT_STEMMED_RUSSULA, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SWEET_TOOTH = block(CosmodModBlocks.SWEET_TOOTH, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> THE_BLUSHER = block(CosmodModBlocks.THE_BLUSHER, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> THE_PRINCE = block(CosmodModBlocks.THE_PRINCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> THE_SICKENER = block(CosmodModBlocks.THE_SICKENER, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> TRUE_MOREL = block(CosmodModBlocks.TRUE_MOREL, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

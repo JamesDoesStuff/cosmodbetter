@@ -16,7 +16,12 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.cosmod.block.YellowHollyhockBlock;
 import net.mcreator.cosmod.block.WhitePurplePansiesBlock;
+import net.mcreator.cosmod.block.TrueMorelBlock;
 import net.mcreator.cosmod.block.ThiccCakeBlock;
+import net.mcreator.cosmod.block.TheSickenerBlock;
+import net.mcreator.cosmod.block.ThePrinceBlock;
+import net.mcreator.cosmod.block.TheBlusherBlock;
+import net.mcreator.cosmod.block.SweetToothBlock;
 import net.mcreator.cosmod.block.SwampRussulaBlock;
 import net.mcreator.cosmod.block.SunsetIrisBlock;
 import net.mcreator.cosmod.block.SulfurTuftBlock;
@@ -289,6 +294,11 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> SWAMP_RUSSULA = REGISTRY.register("swamp_russula", () -> new SwampRussulaBlock());
 	public static final RegistryObject<Block> SHORT_STEMMED_RUSSULA = REGISTRY.register("short_stemmed_russula",
 			() -> new ShortStemmedRussulaBlock());
+	public static final RegistryObject<Block> SWEET_TOOTH = REGISTRY.register("sweet_tooth", () -> new SweetToothBlock());
+	public static final RegistryObject<Block> THE_BLUSHER = REGISTRY.register("the_blusher", () -> new TheBlusherBlock());
+	public static final RegistryObject<Block> THE_PRINCE = REGISTRY.register("the_prince", () -> new ThePrinceBlock());
+	public static final RegistryObject<Block> THE_SICKENER = REGISTRY.register("the_sickener", () -> new TheSickenerBlock());
+	public static final RegistryObject<Block> TRUE_MOREL = REGISTRY.register("true_morel", () -> new TrueMorelBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -416,6 +426,11 @@ public class CosmodModBlocks {
 			SulfurTuftBlock.registerRenderLayer();
 			SwampRussulaBlock.registerRenderLayer();
 			ShortStemmedRussulaBlock.registerRenderLayer();
+			SweetToothBlock.registerRenderLayer();
+			TheBlusherBlock.registerRenderLayer();
+			ThePrinceBlock.registerRenderLayer();
+			TheSickenerBlock.registerRenderLayer();
+			TrueMorelBlock.registerRenderLayer();
 		}
 	}
 }

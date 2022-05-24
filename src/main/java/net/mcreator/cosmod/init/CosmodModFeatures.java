@@ -19,6 +19,11 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.cosmod.world.features.plants.YellowHollyhockFeature;
 import net.mcreator.cosmod.world.features.plants.WhitePurplePansiesFeature;
+import net.mcreator.cosmod.world.features.plants.TrueMorelFeature;
+import net.mcreator.cosmod.world.features.plants.TheSickenerFeature;
+import net.mcreator.cosmod.world.features.plants.ThePrinceFeature;
+import net.mcreator.cosmod.world.features.plants.TheBlusherFeature;
+import net.mcreator.cosmod.world.features.plants.SweetToothFeature;
 import net.mcreator.cosmod.world.features.plants.SwampRussulaFeature;
 import net.mcreator.cosmod.world.features.plants.SunsetIrisFeature;
 import net.mcreator.cosmod.world.features.plants.SulfurTuftFeature;
@@ -393,6 +398,16 @@ public class CosmodModFeatures {
 	public static final RegistryObject<Feature<?>> SHORT_STEMMED_RUSSULA = register("short_stemmed_russula", ShortStemmedRussulaFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, ShortStemmedRussulaFeature.GENERATE_BIOMES,
 					ShortStemmedRussulaFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SWEET_TOOTH = register("sweet_tooth", SweetToothFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, SweetToothFeature.GENERATE_BIOMES, SweetToothFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> THE_BLUSHER = register("the_blusher", TheBlusherFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, TheBlusherFeature.GENERATE_BIOMES, TheBlusherFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> THE_PRINCE = register("the_prince", ThePrinceFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, ThePrinceFeature.GENERATE_BIOMES, ThePrinceFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> THE_SICKENER = register("the_sickener", TheSickenerFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, TheSickenerFeature.GENERATE_BIOMES, TheSickenerFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TRUE_MOREL = register("true_morel", TrueMorelFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, TrueMorelFeature.GENERATE_BIOMES, TrueMorelFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
