@@ -34,8 +34,8 @@ public class BrownRollrimFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new BrownRollrimFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:brown_rollrim", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.BROWN_ROLLRIM.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:brown_rollrim", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.BROWN_ROLLRIM.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:brown_rollrim", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

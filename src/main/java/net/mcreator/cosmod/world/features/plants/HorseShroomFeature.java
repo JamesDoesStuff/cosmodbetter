@@ -34,8 +34,8 @@ public class HorseShroomFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new HorseShroomFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:horse_shroom", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.HORSE_SHROOM.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:horse_shroom", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.HORSE_SHROOM.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:horse_shroom", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

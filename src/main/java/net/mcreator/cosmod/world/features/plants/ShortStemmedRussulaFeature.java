@@ -36,8 +36,8 @@ public class ShortStemmedRussulaFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:short_stemmed_russula", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.SHORT_STEMMED_RUSSULA.get().defaultBlockState())),
-						List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:short_stemmed_russula", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+						List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:short_stemmed_russula", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

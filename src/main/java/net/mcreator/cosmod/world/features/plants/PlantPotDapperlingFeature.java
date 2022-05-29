@@ -36,8 +36,8 @@ public class PlantPotDapperlingFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:plant_pot_dapperling", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.PLANT_POT_DAPPERLING.get().defaultBlockState())),
-						List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:plant_pot_dapperling", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+						List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:plant_pot_dapperling", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

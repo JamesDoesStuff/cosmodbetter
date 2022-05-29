@@ -34,8 +34,8 @@ public class CauliflowerFungiFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new CauliflowerFungiFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:cauliflower_fungi", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.CAULIFLOWER_FUNGI.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:cauliflower_fungi", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.CAULIFLOWER_FUNGI.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:cauliflower_fungi", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

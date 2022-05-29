@@ -34,8 +34,8 @@ public class PoisonFireCoralFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new PoisonFireCoralFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:poison_fire_coral", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.POISON_FIRE_CORAL.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:poison_fire_coral", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.POISON_FIRE_CORAL.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:poison_fire_coral", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

@@ -34,8 +34,8 @@ public class ParrotToadstoolFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new ParrotToadstoolFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:parrot_toadstool", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.PARROT_TOADSTOOL.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:parrot_toadstool", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.PARROT_TOADSTOOL.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:parrot_toadstool", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

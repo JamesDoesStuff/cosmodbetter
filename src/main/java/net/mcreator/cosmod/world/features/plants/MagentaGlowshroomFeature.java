@@ -33,11 +33,9 @@ public class MagentaGlowshroomFeature extends RandomPatchFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new MagentaGlowshroomFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:magenta_glowshroom", FEATURE,
-				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-						new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.MAGENTA_GLOWSHROOM.get().defaultBlockState())),
-						List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:magenta_glowshroom", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:magenta_glowshroom", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.MAGENTA_GLOWSHROOM.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:magenta_glowshroom", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

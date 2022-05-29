@@ -36,8 +36,8 @@ public class MushroomOfTheSunFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:mushroom_of_the_sun", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.MUSHROOM_OF_THE_SUN.get().defaultBlockState())),
-						List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:mushroom_of_the_sun", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+						List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:mushroom_of_the_sun", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

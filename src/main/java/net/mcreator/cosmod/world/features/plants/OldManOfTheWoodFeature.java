@@ -36,8 +36,8 @@ public class OldManOfTheWoodFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:old_man_of_the_wood", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.OLD_MAN_OF_THE_WOOD.get().defaultBlockState())),
-						List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:old_man_of_the_wood", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+						List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:old_man_of_the_wood", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

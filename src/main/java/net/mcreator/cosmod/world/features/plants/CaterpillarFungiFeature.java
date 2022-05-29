@@ -34,8 +34,8 @@ public class CaterpillarFungiFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new CaterpillarFungiFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cosmod:caterpillar_fungi", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.CATERPILLAR_FUNGI.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("cosmod:caterpillar_fungi", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(CosmodModBlocks.CATERPILLAR_FUNGI.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("cosmod:caterpillar_fungi", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
