@@ -1995,6 +1995,23 @@
       "locked_code": false,
       "registry_name": "imported",
       "path": "~/Mushrooms/sussy"
+    },
+    {
+      "name": "BerryPancake",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berry_pancake",
+      "path": "~/food"
+    },
+    {
+      "name": "PancakeEvent",
+      "type": "code",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pancake_event"
     }
   ],
   "variable_elements": [],
@@ -2044,6 +2061,7 @@
       "block.cosmod.earthstar": "Earthstar",
       "block.cosmod.dead_mans_fingers": "Dead Mans Fingers",
       "block.cosmod.candle_snuff": "Candle Snuff",
+      "block.cosmod.berry_pancake": "Berry Pancake",
       "block.cosmod.king_trumpet": "King Trumpet",
       "block.cosmod.purple_morning_glory_vine": "Purple Morning Glory Vine",
       "block.cosmod.bristled_sawgill": "Bristled Sawgill",

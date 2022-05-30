@@ -145,6 +145,7 @@ import net.mcreator.cosmod.block.BlueChanterelleBlock;
 import net.mcreator.cosmod.block.BleedingToothBlock;
 import net.mcreator.cosmod.block.BirchBoleteBlock;
 import net.mcreator.cosmod.block.BigLemonTartBlock;
+import net.mcreator.cosmod.block.BerryPancakeBlock;
 import net.mcreator.cosmod.block.BeechBlock;
 import net.mcreator.cosmod.block.BayBoleteBlock;
 import net.mcreator.cosmod.block.AutumnSkullcapBlock;
@@ -299,6 +300,7 @@ public class CosmodModBlocks {
 	public static final RegistryObject<Block> THE_PRINCE = REGISTRY.register("the_prince", () -> new ThePrinceBlock());
 	public static final RegistryObject<Block> THE_SICKENER = REGISTRY.register("the_sickener", () -> new TheSickenerBlock());
 	public static final RegistryObject<Block> TRUE_MOREL = REGISTRY.register("true_morel", () -> new TrueMorelBlock());
+	public static final RegistryObject<Block> BERRY_PANCAKE = REGISTRY.register("berry_pancake", () -> new BerryPancakeBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -431,6 +433,7 @@ public class CosmodModBlocks {
 			ThePrinceBlock.registerRenderLayer();
 			TheSickenerBlock.registerRenderLayer();
 			TrueMorelBlock.registerRenderLayer();
+			BerryPancakeBlock.registerRenderLayer();
 		}
 	}
 }

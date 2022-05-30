@@ -201,6 +201,7 @@ public class CosmodModItems {
 	public static final RegistryObject<Item> THE_PRINCE = block(CosmodModBlocks.THE_PRINCE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> THE_SICKENER = block(CosmodModBlocks.THE_SICKENER, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> TRUE_MOREL = block(CosmodModBlocks.TRUE_MOREL, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BERRY_PANCAKE = block(CosmodModBlocks.BERRY_PANCAKE, CosmodModTabs.TAB_COSMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

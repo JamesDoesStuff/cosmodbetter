@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "food_pancake_berry"
+      },
+      "name": "default"
+    }
+  }
+}
